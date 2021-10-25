@@ -36,6 +36,7 @@ test:
     - quantstats
   commands:
     - pip check
+    - sample --help
   requires:
     - pip
 
