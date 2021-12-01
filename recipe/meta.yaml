@@ -1,5 +1,5 @@
 {% set name = "quantstats" %}
-{% set version = "0.0.46" %}
+{% set version = "0.0.47" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/QuantStats-{{ version }}.tar.gz
-  sha256: 72b9348b201506e05bc890f8962ea9897c25d3aaff7abfce631730a7df4a289a
+  sha256: 7926c8030019d0e92970aec554f1afaa0966211b06e5518b63e87b7fb3cdc33f
 
 build:
   number: 0
