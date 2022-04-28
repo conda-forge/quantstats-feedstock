@@ -36,8 +36,7 @@ test:
   imports:
     - quantstats
   commands:
-    - pip list
-    - pip list | grep -E "{{ name }}\s+{{ version }}.*"
+    - pip list | grep -iE "{{ name }}\s+{{ version }}.*"
   requires:
     - pip
 
