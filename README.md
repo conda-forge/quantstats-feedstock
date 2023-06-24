@@ -1,11 +1,11 @@
-About quantstats
-================
+About quantstats-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/quantstats-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ranaroussi/quantstats
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/quantstats-feedstock/blob/main/LICENSE.txt)
 
 Summary: Portfolio analytics for quants
 
