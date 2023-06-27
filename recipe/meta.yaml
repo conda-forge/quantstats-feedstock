@@ -32,6 +32,9 @@ requirements:
     - tabulate >=0.8.0
     - yfinance >=0.1.70
 
+    # Not listed but required nevertheless
+    - ipython
+
 test:
   imports:
     - quantstats
