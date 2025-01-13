@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - matplotlib-base >=3.0.0
     - numpy >=1.16.5
