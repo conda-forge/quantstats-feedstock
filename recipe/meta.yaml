@@ -1,6 +1,6 @@
 {% set name = "quantstats" %}
 {% set version = "0.0.65" %}
-
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
