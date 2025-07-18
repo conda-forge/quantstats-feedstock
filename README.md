@@ -10,10 +10,9 @@ Package license: Apache-2.0
 Summary: Portfolio analytics for quants
 
 QuantStats is a Python library that performs portfolio profiling,
- allowing quants and portfolio managers to understand their
- performance better by providing them with in-depth analytics and
- risk metrics.
-
+allowing quants and portfolio managers to understand their
+performance better by providing them with in-depth analytics and
+risk metrics.
 
 Current build status
 ====================
