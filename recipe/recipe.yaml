@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: quantstats
-  version: "0.0.66"
+  version: "0.0.67"
   python_min: '3.10'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 8dafe2c10efabe77b09f25ca2f8e6d6040a54f698fe80881b984f277f1578bed
+  sha256: abf6e0ecf53769d85fc0fe1a7f08ac106eb02dfaaf20e9dce764852dcd66a493
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - pandas >=1.5.0,<3.0.0
-    - numpy >=1.21.0,<2.0.0
+    - numpy >=1.21.0
     - seaborn >=0.11.0
     - matplotlib-base >=3.3.0
     - scipy >=1.7.0
