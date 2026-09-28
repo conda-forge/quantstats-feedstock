@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: quantstats
-  version: "0.0.82"
+  version: "0.0.85"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 3357bc54816eee29f05362803c775c50bdca93a76b24290b84ff3962d9a0d734
+  sha256: f7440e456f7f79a2f9b7c523353d2c71b2756ba2006857b6a4589f7e5f5e13a0
 
 build:
   number: 0
@@ -27,13 +27,13 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }}
-    - pandas >=1.5.0
+    - pandas >=2.0.0
     - numpy >=1.24.0
     - scipy >=1.11.0
     - matplotlib-base >=3.7.0
     - seaborn >=0.13.0
     - tabulate >=0.9.0
-    - yfinance >=0.2.10
+    - yfinance >=0.2.40
     - python-dateutil >=2.8.0
 
 tests:
