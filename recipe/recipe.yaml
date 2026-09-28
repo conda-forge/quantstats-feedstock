@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: quantstats
-  version: "0.0.81"
+  version: "0.0.86"
   python_min: '3.10'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 91f44895e4481167255384c2297193233255b427e3a09a3fa111a5ce77e9b44a
+  sha256: eb348e342410f0abb9b7a457f524df703dc337ed075303b842eaba220a11c7e1
 
 build:
   number: 0
